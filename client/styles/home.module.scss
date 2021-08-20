@@ -1,0 +1,16 @@
+.__container {
+  @apply container m-auto flex flex-col justify-center items-center h-screen;
+  h1 {
+    @apply text-4xl text-purple-700;
+  }
+
+  .__links {
+    @apply my-5;
+    a {
+      @apply mx-2 px-5 py-2 rounded-full text-purple-700 border border-purple-700;
+      &:hover {
+        @apply bg-purple-700 text-white;
+      }
+    }
+  }
+}
